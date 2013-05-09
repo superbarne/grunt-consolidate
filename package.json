@@ -1,0 +1,45 @@
+{
+  "name": "grunt-consolidate",
+  "description": "Use consolidate.js to apply templating to your Grunt projects",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mikevercoelen/grunt-consolidate",
+  "author": {
+    "name": "Mike Vercoelen",
+    "email": "mike.vercoelen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikevercoelen/grunt-consolidate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikevercoelen/grunt-consolidate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mikevercoelen/grunt-consolidate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1",
+    "dustjs-linkedin": "~1.2.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "consolidate": "~0.9.1"
+  }
+}
