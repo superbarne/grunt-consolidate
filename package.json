@@ -37,7 +37,13 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "grunt",
+    "consolidate",
+    "template",
+    "preprocessing",
+    "html",
+    "compile"
   ],
   "dependencies": {
     "consolidate": "~0.9.1"
