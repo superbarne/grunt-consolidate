@@ -28,13 +28,13 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt": "~0.4.1",
-    "dustjs-linkedin": "~1.2.4"
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt": "~0.4.5",
+    "dustjs-linkedin": "~2.7.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.5"
   },
   "keywords": [
     "gruntplugin",
@@ -46,6 +46,6 @@
     "compile"
   ],
   "dependencies": {
-    "consolidate": "~0.9.1"
+    "consolidate": "~0.13.1"
   }
 }
